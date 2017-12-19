@@ -39,15 +39,20 @@ function Img(){
         document.getElementById('img').style.backgroundPositionY = "-250px";
         document.getElementById('welcome').innerHTML = "Bonne matinée !";
     }	
-    if(h>=12 && h<=16) {
+    if(h>=12 && h<=14) {
         document.getElementById('img').style.backgroundImage = "url('img/day2.jpg')";
-        document.getElementById('img').style.backgroundPositionY = "-250px";
+        document.getElementById('img').style.backgroundPositionY = "-320px";
         document.getElementById('welcome').innerHTML = "Bonne journée !";
     }
-    if(h>=17 && h<=19) {
+    if(h>=15 && h<=17) {
+        document.getElementById('img').style.backgroundImage = "url('img/day3.jpg')";
+        document.getElementById('img').style.backgroundPositionY = "-230px";
+        document.getElementById('welcome').innerHTML = "Bonne après-midi !";
+    }	
+    if(h>=18 && h<=19) {
         document.getElementById('img').style.backgroundImage = "url('img/noon1.jpg')";
         document.getElementById('img').style.backgroundPositionY = "-150px";
-        document.getElementById('welcome').innerHTML = "Bonne après-midi !";
+        document.getElementById('welcome').innerHTML = "Bonne fin de journée !";
     }
     if(h>=20 && h<=23) {
         document.getElementById('img').style.backgroundImage = "url('img/night1.jpg')";
@@ -93,7 +98,7 @@ function Datum(){
     var m = month[today.getUTCMonth()];
     var y = today.getUTCFullYear();
 	
-    var total = day + " | " + d + " | " + m + " | " + y;
+    var total = day + " ∙ " + d + " ∙ " + m + " ∙ " + y;
     console.log(total);
 
     document.getElementById('datum').innerHTML = total;

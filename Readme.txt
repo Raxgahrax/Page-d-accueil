@@ -9,3 +9,4 @@ Les icônes (à modifier dans "index.html"):
 Sources:
 -- https://github.com/startpages/startpages.github.io/tree/master/startpages/nielsvanrijn_Dark-Startpage
 -- https://github.com/Cel51/startpage
+-- http://codes-sources.commentcamarche.net/source/21898-un-script-a-l-ordre-du-jour
