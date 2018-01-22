@@ -25,7 +25,7 @@ function init() {
   
 }
 
-// On ready magueule
+// On ready
 $(document).ready(function() {
   init();
   setTimeout(function() {

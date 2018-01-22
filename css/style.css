@@ -1,14 +1,17 @@
 body{
     margin:0;
     padding: 0;
-    background-color: #161e2a;
-	#background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+	background-image: url(file:///D:/Documents/Firefox/img/background/font.jpg);
+	background-position: center center;
+	background-size: 1920px;
+  /*background-color: #161e2a;*/
+  /*background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);*/
 }
 section{
     margin:15vh auto;
     width: 1100px;
     height: 500px;
-    #background-color: #141b28;
+  /*background-color: #141b28;*/
 	background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
     border: 5px solid #101521;
     text-align: center;
@@ -139,5 +142,6 @@ a:hover {
 }
 .sliding-middle-out:hover:after {
     width: 100%;
-    background: #3498db;
+  /*background: #3498db;*/
+	background: #db3d9d;
 }
